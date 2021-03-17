@@ -1,0 +1,55 @@
+.dark {
+	color: #888888
+}
+#main2 {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+#main2 h2 {
+	color:#161616;
+	background-color:green;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+	padding: 15px;
+}
+#main2 ul {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 0.125em 0.25em;
+	list-style-type: none;
+	overflow:hidden;
+}
+#main2 ul li a img {
+	float:left;
+	margin: 5px 16px 5px 5px;
+	border: 1px solid #313031;
+}
+#main2 ul li a {
+	text-decoration:none;
+	color:green;
+	font-size:13px;
+	font-family:  Tahoma, Geneva, sans-serif;
+}
+#main2 ul li p {
+	margin:0;
+	display:block;
+}
+#main2 ul li p.genres {
+	padding-top:4px !important;
+}
+#main2 ul li a.left {
+	margin:8px 0px 10px 0px;
+	font-size:15px;
+}
+#main2 ul li a:hover {
+	border-color: green;
+	color: #055;
+}
+#main2 ul li a img:hover {
+	 border-color: green;
+	 color: #055;
+}

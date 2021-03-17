@@ -1,0 +1,624 @@
+body {
+	margin:0;
+	background-color:#141829;
+}
+#page-wrap {
+    width: 1200px;
+    margin: 0 auto;
+	background-color:#1b1b1b;
+	overflow:hidden;
+}
+.header {
+	background-color:#21294C;
+	padding-bottom:50px;
+}
+.header a {
+	float:right;
+	text-decoration:none;
+	color:#a1a1a1;
+	padding:5px;
+	margin-top:3px;
+}
+.img {
+	width:350px;
+	height:85px;
+	position:relative;
+	top: 25px;
+	left:20px;
+}
+.top {
+	position:absolute;
+	top:15px;
+	width:150px;
+	margin-left:1034px;
+	background:#21294C;
+	border-radius: 25px;
+	padding:7px;
+}
+.top img {
+	margin-top:5px;
+}
+.top a:hover {
+	color:green;
+}
+input[type=text] {
+	float:right;
+    border: 2px solid #a1a1a1;
+	border-right:0;
+    font-size: 15px;
+    background-color: transparent;
+	color:green; 
+    padding: 8px;
+	overflow:hidden;
+	outline: none;
+}
+input[type=submit] {
+	float:right;
+    border: 2px solid #a1a1a1;
+	border-left:0;
+    font-size: 15px;
+    background-color: transparent;
+	color:#a1a1a1; 
+    padding: 8px;
+	cursor:pointer;
+	overflow:hidden;
+	outline: none;
+}
+.nav{
+	background-color:#21294C;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+	padding-bottom:10px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+	text-decoration:none;
+	color:white;
+    display:inline-block;
+    padding:10px;
+	padding-bottom:10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+}
+.nav a:hover {
+	color:green;
+	border-bottom: 4px solid green;
+	padding-bottom:5px;
+}
+li a.active {
+	color: green;
+	border-bottom: 4px solid green;
+	padding-bottom:5px;
+}
+li img {
+	border-radius: 25px;
+}
+#main {
+  float: left;
+  margin: 0;
+  width: 70%;
+  padding-bottom:8px;
+}
+#main h2 {
+	color:#161616;
+	background-color:green;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+	padding: 15px;
+}
+#main h2 a {
+	color:#21294C;
+	text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #055;
+	padding: 8px 10px;
+}
+.left_a {
+	margin-left:63.3%;
+}
+.text_center {
+	border-bottom:1px solid #055;
+	border-top:1px solid #055;
+	border-right:0 !important;
+	border-left:0 !important;
+	background-color:#21294C;
+	color:white !important;
+}
+#main h2 a:hover {
+	background-color:#21294C;
+	color:white;
+}
+#main ul {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 0.125em 0.25em;
+	list-style-type: none;
+	overflow:hidden;
+}
+#main ul li a  {
+	float:left;
+	text-decoration:none;
+	text-align: center;
+	color:green;
+	margin:8px 15px 5px 10px;
+}
+#main ul li a img {
+	 border: 1px solid #313031;
+}
+#main ul li a img:hover {
+	 border-color: green;
+	 color: #055;
+}
+#main ul li a:hover {
+	border-color: green;
+	color: #055;
+}
+.dark {
+	color: #888888;
+}
+#main2 {
+  float: left;
+  margin: 0;
+  width: 70%;
+  padding-bottom:8px;
+}
+#main2 h2 {
+	color:#161616;
+	background-color:green;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+	padding: 15px;
+}
+#main2 ul {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 15px 0.25em;
+	list-style-type: none;
+	overflow:hidden;
+}
+#main2 li {
+	display:inline-block;
+	box-sizing: border-box
+}
+#main2 ul li a img {
+	float:left;
+	margin: 1px 16px 15px 5px;
+	border: 1px solid #313031;
+}
+#main2 ul li a {
+	text-decoration:none;
+	color:green;
+	font-size:13px;
+	font-family:  Tahoma, Geneva, sans-serif;
+}
+#main2 ul li p {
+	margin:0;
+	display:block;
+	color: #888888;
+}
+#main2 ul li p.genres2 {
+	padding-top:4px !important;
+}
+#main2 ul li a.left {
+	margin:10px 0px 10px 0px;
+	font-size:15px;
+}
+#main2 ul li a:hover {
+	border-color: green;
+	color: #055;
+}
+#main2 ul li a img:hover {
+	 border-color: green;
+	 color: #055;
+}
+#main2 ul li:nth-child(2n+1) {
+	border-right: solid 1px green ;	
+	float: left;
+    width: 50%;
+	margin-right: 14px;
+}
+#main2 ul div a {
+	float:right;
+	color:green;
+	text-decoration:none;
+	font-size: 18px;
+	margin:0 5px 0 0;
+}
+#main2 ul div a:hover {
+	color: #055;
+}
+#main3 {
+  float: left;
+  margin: 0;
+  width: 70%;
+}
+#main3 h2 {
+	color:#161616;
+	background-color:green;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+	padding: 15px;
+}
+#main3 ul {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 15px 0.25em;
+	list-style-type: none;
+	overflow:hidden;
+}
+#main3 ul li {
+	font-size:85%;
+	display:block;
+	padding: 4px 0;
+	margin-left:8px;
+}
+#main3 ul li a:hover {
+	color: #055;
+}
+#main3 ul li:nth-child(2n+1) {
+	border-right: solid 1px green ;
+	float: left;
+    width: 50%;
+	margin-right: 14px;
+}
+#main3 ul li a {
+	text-decoration:none;
+	color:green;
+	font-size:13px;
+	font-family:  Tahoma, Geneva, sans-serif;
+	line-height: 14px;
+}
+/* Ovde krece hover sa slikama */
+#main3 ul li a:hover {
+    position: relative;
+}
+#main3 ul li a.sirius:hover:after {
+    content: url(Recent\sirius.jpg);
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.buta:hover:after {
+    content: url(Recent/buta.jpg);
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.stride:hover:after {
+    content: url(Recent/stride.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.alice:hover:after {
+    content: url(Recent/alice.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.kuregahime:hover:after {
+    content: url(Recent/kuregahime.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.koisento:hover:after {
+    content: url(Recent/koisento.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.petite:hover:after {
+    content: url(Recent/petite.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.witch:hover:after {
+    content: url(Recent/witch.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.aimai:hover:after {
+    content: url(Recent/aimai.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.elsword:hover:after {
+    content: url(Recent/elsword.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.fategrand:hover:after {
+    content: url(Recent/fategrand.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.theplace:hover:after {
+    content: url(Recent/theplace.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.conan:hover:after {
+    content: url(Recent/conan.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.tenpou:hover:after {
+    content: url(Recent/tenpou.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.blood2:hover:after {
+    content: url(Recent/blood2.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.shakugan:hover:after {
+    content: url(Recent/shakugan.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.shinigami:hover:after {
+    content: url(Recent/shinigami.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.medabots:hover:after {
+    content: url(Recent/medabots.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.kumaru:hover:after {
+    content: url(Recent/kumaru.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.digimon:hover:after {
+    content: url(Recent/digimon.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: 0px; 
+}
+#main3 ul li a.fruit:hover:after {
+    content: url(Recent/fruit.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -25px; 
+}
+#main3 ul li a.shelter:hover:after {
+    content: url(Recent/shelter.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -25px; 
+}
+#main3 ul li a.fairytail:hover:after {
+    content: url(Recent/fairytail.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -45px; 
+}
+#main3 ul li a.aooni:hover:after {
+    content: url(Recent/aooni.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -45px; 
+}
+#main3 ul li a.fune:hover:after {
+    content: url(Recent/fune.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -65px; 
+}
+#main3 ul li a.blackgod:hover:after {
+    content: url(Recent/blackgod.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -65px; 
+}
+#main3 ul li a.kokuhaku:hover:after {
+    content: url(Recent/kokuhaku.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -85px; 
+}
+#main3 ul li a.dream:hover:after {
+    content: url(Recent/dream.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -85px; 
+}
+#main3 ul li a.pokemonbw:hover:after {
+    content: url(Recent/pokemonbw.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -105px; 
+}
+#main3 ul li a.dragonballz:hover:after {
+    content: url(Recent/dragonballz.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -105px; 
+}
+#main3 ul li a.soushin:hover:after {
+    content: url(Recent/soushin.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -130px; 
+}
+#main3 ul li a.grimm:hover:after {
+    content: url(Recent/grimm.jpg); 
+    display: block;
+    position: absolute;
+    left: 123px; 
+    top: -130px; 
+}
+#sidebar {
+	width:28%;
+	right: 11em;
+	top:1em;
+	float:right;
+}
+#sidebar h2 {
+	color:#161616;
+	background-color:green;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+	padding: 15px;
+}
+#sidebar ol {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 8px 0.25em;
+	list-style-type: none;
+}
+#sidebar ul {
+	margin: 0 0 1em 0;
+	background-color:#21294C;
+	border: 1px solid green;
+	border-top: 0;
+	padding: 8px 0.25em;
+	list-style-type: none;
+}
+#sidebar ol li {
+	font-size:85%;
+	display:block;
+	padding: 2px 0;
+	margin:1px 8px;
+	
+}
+#sidebar ul li {
+	font-size:85%;
+	display:block;
+	padding: 4px 0;
+	margin-left:8px;
+}
+#sidebar li a:link, #sidebar li a:visited {
+	text-decoration: none;
+	color:green;
+}
+#sidebar li a:hover {
+	color: #055;
+}
+.genres ul li:nth-child(2n+1) {
+	border-right: solid 1px green ;
+	float: left;
+    width: 50%;
+	margin-right: 14px;
+}
+footer {
+	padding: 10px 0px 25px;
+    color: #959595;
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20px;
+    position: relative;
+}
+}
+footer  ul {
+	text-decoration:none;
+	max-width: 1200px;
+	overflow: hidden;
+	padding: 25px 0;
+	position: relative;
+	width: 95%;
+}
+footer  ul li {
+	list-style-type: none;
+	float: left;
+	width: 33.3%;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+footer  ul li:first-child {
+	padding-left: 0;
+}
+footer  ul li:nth-child(3) {
+	padding-left: 20%;
+}
+footer  ul li .text {
+	color: #848889;
+	font-size: 13px;
+	line-height: 20px;
+	position: relative;
+}
+.text h4 {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.text a {
+	font-weight: bold;
+	display:block;
+	text-decoration:none;
+	color:#959595;
+}
+.text a:hover {
+	color:green;
+}
